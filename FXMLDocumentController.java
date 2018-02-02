@@ -123,7 +123,7 @@ public class FXMLDocumentController implements Initializable{
     private void handleBluecolor(ActionEvent event){
        vbox.getChildren().remove(anchorPane);
        lightColor = Color.SKYBLUE;
-       darkcolor = Color.DEEPSKYBLUE;
+       darkcolor = Color.DARKBLUE;
        chess = new Checkerboard(numRows, numCols, anchorPane.getWidth(), anchorPane.getHeight(), lightColor, darkcolor);
        anchorPane = chess.build();
        vbox.getChildren().add(anchorPane); 
